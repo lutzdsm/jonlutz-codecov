@@ -14,12 +14,11 @@ class IsOddTests(unittest.TestCase):
     def testtwo(self):
         self.failIf(IsOdd(2))
 
-class IsEvenTests(unittest.TestCase):
+"""class IsEvenTests(unittest.TestCase):
 
     def testthree(self):
         self.failUnless(IsEven(2))
 
     def testfour(self):
         self.failIf(IsEven(1))
-
-
+"""
